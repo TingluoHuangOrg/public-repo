@@ -23,7 +23,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      - uses: bbq-beets/ting-test@main
+      - uses: bbq-beets/ting-test@master
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
